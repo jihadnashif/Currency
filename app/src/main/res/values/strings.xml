@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Currency</string>
+    <string-array name="Currency">
+        <item>ILS</item>
+        <item>EUR</item>
+
+
+    </string-array>
+
+</resources>
