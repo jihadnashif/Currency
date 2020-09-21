@@ -15,30 +15,24 @@
         android:textSize="30sp"
         android:text="Currency Converter" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/text"
-        android:textSize="100sp"
 
-        />
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="150dp"
 
         >
 
-
         <TextView
+            android:id="@+id/tvfrom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="form"
+            android:text="from"
             android:gravity="center"
-
             />
 
         <Spinner
@@ -62,16 +56,17 @@
 
 
         <TextView
+            android:id="@+id/tvto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="to"
+            android:text="     to"
+            android:layout_gravity="center"
             android:gravity="center"
             />
 
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:entries="@array/Currency"
             android:id="@+id/spinner2"
             />
@@ -80,7 +75,7 @@
 
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/amounet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -90,15 +85,22 @@
         />
 
     <Button
+    android:id="@+id/convertbtn"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:layout_marginTop="20dp"
+    android:layout_marginTop="40dp"
     android:text="Convert"
         android:textAllCaps="false"
-        android:id="@+id/btn1"
-
     />
+    <Button
+        android:id="@+id/tablecombbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table Combination"
+        android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+        />
 
 
 
