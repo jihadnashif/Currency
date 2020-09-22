@@ -11,4 +11,257 @@
 
 
 
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <TableRow
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:text="ISO"
+                android:textSize="20dp"
+                android:padding="3dip" />
+            <TextView
+                android:textSize="20sp"
+
+                android:text="Currency Name"
+                android:gravity="center"
+                android:padding="3dip" />
+            <TextView
+                android:textSize="20sp"
+                android:text="Flag"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:textSize="20sp"
+                android:text="USD"
+                android:padding="3dip" />
+            <TextView
+                android:textSize="20sp"
+                android:text="U.S Dollar"
+                android:gravity="center"
+                android:padding="3dip" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:src="@drawable/usa"
+
+
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:textSize="20sp"
+                android:text="JPY"
+                android:padding="3dip" />
+            <TextView
+                android:textSize="20sp"
+                android:text="Japanese Yen"
+                android:gravity="center"
+                android:padding="3dip" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:src="@drawable/jpy"
+                />
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:textSize="20sp"
+                android:text="EUR"
+                android:padding="3dip" />
+            <TextView
+                android:textSize="20sp"
+                android:text="Euro"
+                android:gravity="center"
+                android:padding="3dip" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:src="@drawable/eur"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:textSize="20sp"
+                android:text="GBP"
+                android:padding="3dip" />
+            <TextView
+                android:textSize="20sp"
+                android:text="British Pound"
+                android:gravity="center"
+                android:padding="3dip" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:src="@drawable/gbp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:textSize="20sp"
+                android:text="CHF"
+                android:padding="3dip" />
+            <TextView
+                android:textSize="20sp"
+                android:text="Swiss Franc"
+                android:gravity="center"
+                android:padding="3dip" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:src="@drawable/chf1"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:textSize="20sp"
+                android:text="NOK"
+                android:padding="3dip" />
+            <TextView
+                android:textSize="20sp"
+                android:text="Norwegian Krone"
+                android:gravity="center"
+                android:padding="3dip" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:src="@drawable/nok"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:textSize="20sp"
+                android:text="SEK"
+                android:padding="3dip" />
+            <TextView
+                android:textSize="20sp"
+                android:text="Swedish Krona"
+                android:gravity="center"
+                android:padding="3dip" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:src="@drawable/sek"
+                />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:textSize="20sp"
+                android:text="AUD"
+                android:padding="3dip" />
+            <TextView
+                android:textSize="20sp"
+                android:text="Australian Dollar"
+                android:gravity="center"
+                android:padding="3dip" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:src="@drawable/aud"
+                />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:textSize="20sp"
+                android:text="NZD"
+                android:padding="3dip" />
+            <TextView
+                android:textSize="20sp"
+                android:text="new Zealand Dollar"
+                android:gravity="center"
+                android:padding="3dip" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:src="@drawable/nzd"
+                />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:textSize="20sp"
+                android:text="CAD"
+                android:padding="3dip" />
+            <TextView
+                android:textSize="20sp"
+                android:text="Canadian Dollar"
+                android:gravity="center"
+                android:padding="3dip" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:src="@drawable/cad"
+                />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+
+
+
+
+
 </LinearLayout>
